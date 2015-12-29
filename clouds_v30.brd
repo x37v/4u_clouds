@@ -126,11 +126,11 @@
 <text x="144.78" y="19.3675" size="1.27" layer="25" ratio="15">&lt;TX</text>
 <text x="144.4625" y="33.9725" size="0.8128" layer="25" ratio="16" rot="R90">RESET</text>
 <text x="136.8425" y="33.9725" size="0.8128" layer="25" ratio="16" rot="R90">SYSBOOT</text>
-<text x="90.805" y="48.26" size="1.016" layer="25" ratio="15">cc-by-sa Olivier Gillet, 2015. v3 - mod1 XNOR 2015</text>
-<text x="59.69" y="-7.3025" size="1.016" layer="26" ratio="15" rot="MR0">cc-by-sa Olivier Gillet, 2015. v3</text>
+<text x="90.4875" y="48.895" size="1.016" layer="25" ratio="15">cc-by-sa Olivier Gillet, 2015. v3 - mod1 XNOR 2015</text>
+<text x="128.27" y="46.6725" size="1.016" layer="26" ratio="15" rot="MR0">cc-by-sa Olivier Gillet, 2015. v3</text>
 <text x="144.145" y="18.415" size="1.27" layer="25" ratio="15" rot="R90">FTDI DONGLE</text>
-<text x="107.95" y="32.385" size="3.3528" layer="25" ratio="15">Clouds</text>
-<text x="95.885" y="-6.0325" size="3.175" layer="26" ratio="15" rot="MR0">Clouds</text>
+<text x="102.235" y="40.64" size="3.3528" layer="25" ratio="15">Clouds</text>
+<text x="118.745" y="40.9575" size="3.175" layer="26" ratio="15" rot="MR0">Clouds</text>
 <hole x="3.81" y="46.99" drill="3.2"/>
 <hole x="3.81" y="3.81" drill="3.2"/>
 <hole x="148.59" y="46.99" drill="3.2"/>
@@ -1386,13 +1386,13 @@ RJ45 Jack connectors&lt;br&gt;
 </pass>
 </autorouter>
 <elements>
-<element name="Q3" library="crystal" package="HC49UP" value="8MHz" x="71.4375" y="46.99" smashed="yes">
-<attribute name="NAME" x="65.7224" y="49.784" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="67.945" y="49.784" size="0.8128" layer="27" ratio="10"/>
+<element name="Q3" library="crystal" package="HC49UP" value="8MHz" x="71.4375" y="46.0375" smashed="yes">
+<attribute name="NAME" x="65.7224" y="48.8315" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="67.945" y="48.8315" size="0.8128" layer="27" ratio="10"/>
 </element>
-<element name="C6" library="rcl" package="C0603" value="18p" x="68.58" y="43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="66.9925" y="43.4975" size="0.6096" layer="25" rot="R180"/>
-<attribute name="VALUE" x="74.6125" y="42.2275" size="0.6096" layer="27"/>
+<element name="C6" library="rcl" package="C0603" value="18p" x="68.58" y="42.2275" smashed="yes" rot="R180">
+<attribute name="NAME" x="66.9925" y="42.545" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="74.6125" y="41.275" size="0.6096" layer="27"/>
 </element>
 <element name="SW5" library="adafruit" package="EVQ-Q2" value="" x="140.335" y="37.1475" smashed="yes" rot="R270">
 <attribute name="NAME" x="139.24" y="40.965" size="0.9144" layer="25"/>
@@ -1402,9 +1402,9 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="139.7" y="46.0375" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="139.7" y="46.6725" size="0.6096" layer="27"/>
 </element>
-<element name="C7" library="rcl" package="C0603" value="18p" x="73.025" y="43.18" smashed="yes">
-<attribute name="NAME" x="74.6125" y="42.8625" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="66.9925" y="42.8625" size="0.6096" layer="27" rot="R180"/>
+<element name="C7" library="rcl" package="C0603" value="18p" x="73.025" y="42.2275" smashed="yes">
+<attribute name="NAME" x="74.6125" y="41.91" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="66.9925" y="41.91" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="SW4" library="adafruit" package="EVQ-Q2" value="" x="132.715" y="37.1475" smashed="yes" rot="R270">
 <attribute name="NAME" x="131.62" y="40.965" size="0.9144" layer="25"/>
@@ -1434,9 +1434,9 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="54.9661" y="40.6241" size="0.6096" layer="25" rot="R315"/>
 <attribute name="VALUE" x="55.4151" y="41.0731" size="0.6096" layer="27" rot="R315"/>
 </element>
-<element name="C32" library="rcl" package="C0603" value="100n" x="99.695" y="17.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="101.2825" y="17.145" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="102.235" y="17.145" size="0.6096" layer="27" rot="R90"/>
+<element name="C32" library="rcl" package="C0603" value="100n" x="100.0125" y="18.415" smashed="yes" rot="R270">
+<attribute name="NAME" x="100.6475" y="16.51" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="100.965" y="15.5575" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="JP2" library="og-header" package="2X5-1.27" value="M05X2MINIJTAG" x="150.495" y="34.925" smashed="yes"/>
 <element name="C8" library="rcl" package="C0603" value="100n" x="61.9126" y="41.5925" smashed="yes" rot="R135">
@@ -1444,7 +1444,7 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="VALUE" x="61.5568" y="40.0209" size="0.6096" layer="27" rot="R135"/>
 </element>
 <element name="IC5" library="og-stm32f2" package="TQFP-10X10-64" value="STM32F405RGT6" x="61.9125" y="33.02" smashed="yes" rot="R315">
-<attribute name="NAME" x="65.778" y="39.1453" size="1.016" layer="27" ratio="15" rot="R45"/>
+<attribute name="NAME" x="67.683" y="37.8753" size="1.016" layer="27" ratio="15" rot="R45"/>
 <attribute name="VALUE" x="60.2445" y="37.9078" size="0.762" layer="27" ratio="15" rot="R315"/>
 </element>
 <element name="C24" library="rcl" package="C0805" value="2.2u" x="57.785" y="25.7175" smashed="yes" rot="R135">
@@ -1456,8 +1456,8 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="VALUE" x="67.6049" y="28.312" size="0.6096" layer="27" rot="R315"/>
 </element>
 <element name="C30" library="rcl" package="C0603" value="100n" x="103.505" y="26.035" smashed="yes" rot="R180">
-<attribute name="NAME" x="101.9175" y="24.4475" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="101.9175" y="25.0825" size="0.4572" layer="27" rot="R180"/>
+<attribute name="NAME" x="99.695" y="26.035" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="101.2825" y="25.7175" size="0.4572" layer="27" rot="R180"/>
 </element>
 <element name="JP1" library="SparkFun" package="1X06" value="" x="149.86" y="30.1625" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="153.035" y="31.4325" size="1.27" layer="28" rot="MR270"/>
@@ -1503,16 +1503,16 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="VALUE" x="44.45" y="20.955" size="0.6096" layer="27"/>
 </element>
 <element name="R34" library="rcl" package="R0603" value="47k" x="42.8625" y="25.0825" smashed="yes">
-<attribute name="NAME" x="41.275" y="24.4475" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="40.64" y="24.4475" size="0.6096" layer="27" rot="R90"/>
+<attribute name="NAME" x="41.275" y="25.7175" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="41.275" y="25.0825" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="R36" library="rcl" package="R0603" value="180k" x="42.8625" y="23.495" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.45" y="23.1775" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="44.45" y="22.5425" size="0.6096" layer="27"/>
 </element>
 <element name="C20" library="rcl" package="C0603" value="1n" x="42.8625" y="26.67" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.275" y="26.3525" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="40.64" y="26.3525" size="0.6096" layer="27" rot="R90"/>
+<attribute name="NAME" x="41.275" y="27.305" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="41.275" y="26.67" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="R39" library="rcl" package="R0603" value="100k" x="49.2125" y="21.9075" smashed="yes">
 <attribute name="NAME" x="50.8" y="21.59" size="0.6096" layer="25"/>
@@ -1527,8 +1527,8 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="VALUE" x="50.8" y="26.9875" size="0.6096" layer="27"/>
 </element>
 <element name="IC6" library="texas" package="DBZ_R-PDSO-G3" value="LM4040B10" x="45.72" y="46.6725" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.355" y="48.5775" size="0.8128" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="45.4025" y="48.5775" size="0.6096" layer="27" ratio="15" rot="R90"/>
+<attribute name="NAME" x="49.2125" y="45.4025" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="48.26" y="44.1325" size="0.6096" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="R30" library="rcl" package="R0603" value="470" x="42.2275" y="46.0375" smashed="yes">
 <attribute name="NAME" x="41.5925" y="44.7675" size="0.6096" layer="25"/>
@@ -1542,9 +1542,9 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="30.7975" y="15.24" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="31.75" y="15.24" size="0.8128" layer="27" rot="R90"/>
 </element>
-<element name="C13" library="rcl" package="PANASONIC_D" value="47u" x="36.195" y="45.085" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.735" y="48.4225" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="39.6875" y="44.1325" size="0.8128" layer="27" rot="R270"/>
+<element name="C13" library="rcl" package="PANASONIC_D" value="47u" x="33.9725" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.5125" y="49.0575" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="37.465" y="44.7675" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="rcl" package="PANASONIC_D" value="47u" x="24.13" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.575" y="37.465" size="0.8128" layer="25" rot="R90"/>
@@ -1565,49 +1565,49 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="50.8" y="23.1775" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="50.8" y="23.8125" size="0.6096" layer="27"/>
 </element>
-<element name="C23" library="rcl" package="C0603" value="100n" x="45.4025" y="25.0825" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.6725" y="23.8125" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="47.3075" y="23.8125" size="0.6096" layer="27" rot="R90"/>
+<element name="C23" library="rcl" package="C0603" value="100n" x="46.0375" y="26.3525" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.7675" y="25.0825" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="44.7675" y="24.4475" size="0.6096" layer="27"/>
 </element>
 <element name="IC8" library="og-dac" package="SSOP28" value="WM8731" x="106.3625" y="19.3675" smashed="yes" rot="R270">
 <attribute name="NAME" x="103.9495" y="13.372" size="1.016" layer="25" ratio="15"/>
 <attribute name="VALUE" x="106.9905" y="16.428" size="1.27" layer="27" ratio="15" rot="R90"/>
 </element>
-<element name="C29" library="rcl" package="C0603" value="100n" x="107.95" y="25.4" smashed="yes">
-<attribute name="NAME" x="109.5375" y="25.0825" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="109.5375" y="25.7175" size="0.6096" layer="27"/>
+<element name="C29" library="rcl" package="C0603" value="100n" x="107.95" y="26.035" smashed="yes">
+<attribute name="NAME" x="110.49" y="26.3525" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="110.1725" y="25.4" size="0.6096" layer="27"/>
 </element>
-<element name="C34" library="rcl" package="C0603" value="100n" x="112.395" y="15.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="111.76" y="16.8275" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="111.76" y="17.4625" size="0.6096" layer="27"/>
+<element name="C34" library="rcl" package="C0603" value="100n" x="112.395" y="16.1925" smashed="yes" rot="R270">
+<attribute name="NAME" x="111.76" y="17.78" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="111.4425" y="18.415" size="0.6096" layer="27"/>
 </element>
 <element name="C35" library="rcl" package="PANASONIC_B" value="10u" x="115.8875" y="16.8275" smashed="yes" rot="R90">
 <attribute name="NAME" x="115.0075" y="20.08" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="115.0075" y="20.855" size="0.8128" layer="27"/>
 </element>
 <element name="R53" library="rcl" package="R0603" value="5.6k" x="119.0625" y="11.7475" smashed="yes" rot="R270">
-<attribute name="NAME" x="118.745" y="10.16" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="118.11" y="10.16" size="0.6096" layer="27" rot="R270"/>
+<attribute name="NAME" x="118.745" y="9.8425" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="118.11" y="9.8425" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="R54" library="rcl" package="R0603" value="5.6k" x="120.65" y="11.7475" smashed="yes" rot="R90">
-<attribute name="NAME" x="120.3325" y="10.16" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="119.6975" y="10.16" size="0.6096" layer="27" rot="R270"/>
+<attribute name="NAME" x="120.3325" y="9.8425" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="119.6975" y="9.8425" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="C43" library="rcl" package="C0603" value="220p" x="122.2375" y="11.7475" smashed="yes" rot="R270">
-<attribute name="NAME" x="121.92" y="10.16" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="121.285" y="10.16" size="0.6096" layer="27" rot="R270"/>
+<attribute name="NAME" x="122.2375" y="9.8425" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="121.6025" y="9.8425" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="R55" library="rcl" package="R0603" value="5.6k" x="123.825" y="11.7475" smashed="yes" rot="R270">
-<attribute name="NAME" x="123.5075" y="10.16" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="122.8725" y="10.16" size="0.6096" layer="27" rot="R270"/>
+<attribute name="NAME" x="123.825" y="9.8425" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="123.19" y="9.8425" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="R56" library="rcl" package="R0603" value="5.6k" x="125.4125" y="11.7475" smashed="yes" rot="R90">
-<attribute name="NAME" x="125.095" y="10.16" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="124.46" y="10.16" size="0.6096" layer="27" rot="R270"/>
+<attribute name="NAME" x="125.4125" y="9.8425" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="124.7775" y="9.8425" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="C44" library="rcl" package="C0603" value="220p" x="127" y="11.7475" smashed="yes" rot="R270">
-<attribute name="NAME" x="126.6825" y="10.16" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="126.0475" y="10.16" size="0.6096" layer="27" rot="R270"/>
+<attribute name="NAME" x="127" y="9.8425" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="126.365" y="9.8425" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="C36" library="rcl" package="PANASONIC_B" value="10u" x="120.65" y="16.8275" smashed="yes" rot="R90">
 <attribute name="NAME" x="119.77" y="20.08" size="0.8128" layer="25"/>
@@ -1617,13 +1617,13 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="124.5325" y="20.08" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="124.46" y="20.955" size="0.8128" layer="27"/>
 </element>
-<element name="C41" library="rcl" package="PANASONIC_B" value="10u" x="105.0925" y="10.795" smashed="yes">
-<attribute name="NAME" x="102.9425" y="7.6975" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="102.9425" y="6.885" size="0.8128" layer="27"/>
+<element name="C41" library="rcl" package="PANASONIC_B" value="10u" x="106.045" y="10.795" smashed="yes">
+<attribute name="NAME" x="103.895" y="7.6975" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="103.895" y="6.885" size="0.8128" layer="27"/>
 </element>
-<element name="R50" library="rcl" package="R0603" value="39k" x="94.2975" y="11.7475" smashed="yes" rot="R90">
-<attribute name="NAME" x="93.6625" y="9.525" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="93.6625" y="8.89" size="0.6096" layer="27"/>
+<element name="R50" library="rcl" package="R0603" value="39k" x="93.345" y="13.0175" smashed="yes" rot="R180">
+<attribute name="NAME" x="94.615" y="12.065" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="93.0275" y="10.4775" size="0.6096" layer="27"/>
 </element>
 <element name="R52" library="rcl" package="R0603" value="5.6k" x="90.4875" y="21.9075" smashed="yes">
 <attribute name="NAME" x="89.8525" y="20.6375" size="0.6096" layer="25"/>
@@ -1635,19 +1635,19 @@ RJ45 Jack connectors&lt;br&gt;
 </element>
 <element name="R48" library="rcl" package="R0603" value="39k" x="91.44" y="24.4475" smashed="yes" rot="R270">
 <attribute name="NAME" x="90.805" y="26.035" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="90.805" y="26.67" size="0.6096" layer="27"/>
+<attribute name="VALUE" x="90.805" y="26.9875" size="0.6096" layer="27"/>
 </element>
 <element name="C42" library="rcl" package="C0603" value="18p" x="89.535" y="24.4475" smashed="yes" rot="R90">
-<attribute name="NAME" x="88.9" y="26.035" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="88.9" y="26.67" size="0.6096" layer="27"/>
+<attribute name="NAME" x="88.5825" y="26.035" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="88.5825" y="26.9875" size="0.6096" layer="27"/>
 </element>
 <element name="R62" library="rcl" package="R0603" value="1.0k" x="88.265" y="29.845" smashed="yes">
-<attribute name="NAME" x="88.9" y="28.8925" size="0.6096" layer="25" rot="R180"/>
-<attribute name="VALUE" x="88.9" y="28.2575" size="0.6096" layer="27" rot="R180"/>
+<attribute name="NAME" x="86.6775" y="30.48" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="86.6775" y="29.5275" size="0.6096" layer="27" rot="R180"/>
 </element>
-<element name="C33" library="rcl" package="PANASONIC_B" value="10u" x="99.06" y="12.065" smashed="yes">
-<attribute name="NAME" x="98.18" y="8.9675" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="98.18" y="8.155" size="0.8128" layer="27"/>
+<element name="C33" library="rcl" package="PANASONIC_B" value="10u" x="99.3775" y="10.795" smashed="yes">
+<attribute name="NAME" x="98.4975" y="7.6975" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="98.4975" y="6.885" size="0.8128" layer="27"/>
 </element>
 <element name="R59" library="rcl" package="R0603" value="39k" x="78.4225" y="20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="76.835" y="20.6375" size="0.6096" layer="25" rot="R180"/>
@@ -1665,9 +1665,9 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="76.835" y="25.4" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="76.835" y="24.765" size="0.6096" layer="27" rot="R180"/>
 </element>
-<element name="R61" library="rcl" package="R0603" value="1.0k" x="80.645" y="26.9875" smashed="yes">
-<attribute name="NAME" x="80.01" y="27.94" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="80.01" y="28.575" size="0.6096" layer="27"/>
+<element name="R61" library="rcl" package="R0603" value="1.0k" x="79.6925" y="26.9875" smashed="yes">
+<attribute name="NAME" x="76.5175" y="27.6225" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="76.5175" y="26.67" size="0.6096" layer="27"/>
 </element>
 <element name="C39" library="rcl" package="C0603" value="100n" x="85.725" y="26.3525" smashed="yes" rot="R180">
 <attribute name="NAME" x="84.7725" y="26.9875" size="0.6096" layer="25"/>
@@ -1685,21 +1685,21 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="61.9125" y="16.8275" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="61.9125" y="17.4625" size="0.6096" layer="27"/>
 </element>
-<element name="R32" library="rcl" package="R0603" value="100k" x="38.1" y="26.035" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.7825" y="24.4475" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="38.4175" y="24.4475" size="0.6096" layer="27" rot="R270"/>
+<element name="R32" library="rcl" package="R0603" value="100k" x="36.5125" y="25.7175" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.195" y="24.13" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="36.83" y="24.13" size="0.6096" layer="27" rot="R270"/>
 </element>
-<element name="R31" library="rcl" package="R0603" value="66.5k" x="34.925" y="26.035" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.6075" y="24.4475" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="35.2425" y="24.4475" size="0.6096" layer="27" rot="R270"/>
+<element name="R31" library="rcl" package="R0603" value="66.5k" x="33.3375" y="25.7175" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.02" y="24.13" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="33.655" y="24.13" size="0.6096" layer="27" rot="R270"/>
 </element>
-<element name="R33" library="rcl" package="R0603" value="200k" x="39.6875" y="26.035" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.37" y="24.4475" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="40.005" y="24.4475" size="0.6096" layer="27" rot="R270"/>
+<element name="R33" library="rcl" package="R0603" value="200k" x="38.1" y="25.7175" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.7825" y="24.13" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="38.4175" y="24.13" size="0.6096" layer="27" rot="R270"/>
 </element>
-<element name="C22" library="rcl" package="C0603" value="1n" x="36.5125" y="26.035" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.83" y="24.4475" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="36.195" y="24.4475" size="0.6096" layer="27" rot="R270"/>
+<element name="C22" library="rcl" package="C0603" value="1n" x="34.925" y="25.7175" smashed="yes" rot="R270">
+<attribute name="NAME" x="35.2425" y="24.13" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="34.6075" y="24.13" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="R29" library="rcl" package="R0603" value="100k" x="40.005" y="37.465" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.3225" y="39.0525" size="0.6096" layer="25" rot="R90"/>
@@ -1745,16 +1745,16 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="138.7475" y="22.86" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="138.7475" y="23.495" size="0.6096" layer="27"/>
 </element>
-<element name="R2" library="rcl" package="R0603" value="RLED" x="138.43" y="10.795" smashed="yes" rot="R270">
-<attribute name="NAME" x="137.795" y="12.3825" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="137.795" y="13.0175" size="0.6096" layer="27"/>
+<element name="R2" library="rcl" package="R0603" value="RLED" x="139.3825" y="11.43" smashed="yes">
+<attribute name="NAME" x="137.4775" y="12.3825" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="137.4775" y="11.43" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="C15" library="rcl" package="C0603" value="100n" x="34.29" y="33.3375" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.655" y="32.385" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="33.02" y="32.385" size="0.6096" layer="27" rot="R90"/>
 </element>
 <element name="IC1" library="74xx-eu" package="SO16" value="74HC595D" x="69.3737" y="17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="74.8347" y="19.685" size="1.016" layer="25" ratio="15" rot="R270"/>
+<attribute name="NAME" x="74.8347" y="19.05" size="1.016" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="73.1837" y="18.2245" size="1.016" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="R10" library="rcl" package="R0603" value="RLED" x="63.1825" y="7.62" smashed="yes" rot="R270">
@@ -1822,12 +1822,12 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="VALUE" x="25.4" y="46.355" size="0.6096" layer="27"/>
 </element>
 <element name="C27" library="rcl" package="PANASONIC_D" value="47u" x="84.455" y="44.7675" smashed="yes" rot="R180">
-<attribute name="NAME" x="85.665" y="48.47" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="85.615" y="49.565" size="0.8128" layer="27"/>
+<attribute name="NAME" x="88.5225" y="45.93" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="88.4725" y="47.3425" size="0.8128" layer="27"/>
 </element>
-<element name="C26" library="rcl" package="C0603" value="100n" x="54.2925" y="22.225" smashed="yes" rot="R180">
-<attribute name="NAME" x="53.6575" y="22.86" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="53.6575" y="23.495" size="0.6096" layer="27"/>
+<element name="C26" library="rcl" package="C0603" value="100n" x="54.61" y="21.9075" smashed="yes" rot="R180">
+<attribute name="NAME" x="53.975" y="22.5425" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="53.975" y="23.1775" size="0.6096" layer="27"/>
 </element>
 <element name="IC7" library="og-vreg" package="SOT223" value="LM1117-3.3" x="84.455" y="36.5125" smashed="yes">
 <attribute name="NAME" x="87.9475" y="35.1155" size="1.016" layer="25" ratio="15"/>
@@ -1845,59 +1845,110 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="20.0025" y="20.6375" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="20.0025" y="22.86" size="0.6096" layer="27" rot="R90"/>
 </element>
-<element name="Q4" library="crystal" package="HC49UP" value="12.288MHz" x="105.7275" y="40.3225" smashed="yes">
-<attribute name="NAME" x="111.76" y="41.529" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="103.505" y="38.354" size="0.6096" layer="27" ratio="10"/>
+<element name="Q4" library="crystal" package="HC49UP" value="12.288MHz" x="117.7925" y="29.845" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.999" y="23.8125" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="115.824" y="32.0675" size="0.6096" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C47" library="rcl" package="C0603" value="18p" x="101.7588" y="43.815" smashed="yes" rot="R180">
-<attribute name="NAME" x="100.8063" y="44.45" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="100.8063" y="45.085" size="0.6096" layer="27"/>
+<element name="C47" library="rcl" package="C0603" value="18p" x="121.285" y="33.8137" smashed="yes" rot="R90">
+<attribute name="NAME" x="121.92" y="34.7662" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="122.555" y="34.7662" size="0.6096" layer="27" rot="R270"/>
 </element>
-<element name="C48" library="rcl" package="C0603" value="18p" x="109.6963" y="43.815" smashed="yes">
-<attribute name="NAME" x="108.7438" y="44.45" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="108.7438" y="45.085" size="0.6096" layer="27"/>
+<element name="C48" library="rcl" package="C0603" value="18p" x="121.285" y="25.8762" smashed="yes" rot="R270">
+<attribute name="NAME" x="121.92" y="26.8287" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="122.555" y="26.8287" size="0.6096" layer="27" rot="R270"/>
 </element>
-<element name="C49" library="rcl" package="PANASONIC_A" value="10u" x="96.8375" y="16.8275" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.995" y="17.6175" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="94.995" y="16.795" size="0.8128" layer="27" rot="R180"/>
+<element name="C49" library="rcl" package="PANASONIC_A" value="10u" x="96.8375" y="18.0975" smashed="yes" rot="R90">
+<attribute name="NAME" x="94.995" y="18.8875" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="94.995" y="18.065" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="C28" library="rcl" package="PANASONIC_A" value="10u" x="108.9025" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="108.205" y="29.69" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="108.84" y="31.1475" size="0.8128" layer="27"/>
+<element name="C28" library="rcl" package="PANASONIC_A" value="10u" x="107.95" y="29.21" smashed="yes" rot="R180">
+<attribute name="NAME" x="107.2525" y="30.96" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="107.57" y="32.1" size="0.8128" layer="27"/>
 </element>
-<element name="C31" library="rcl" package="PANASONIC_B" value="10u" x="125.4125" y="24.4475" smashed="yes" rot="R90">
-<attribute name="NAME" x="126.9375" y="26.515" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="127" y="27.6225" size="0.8128" layer="27"/>
+<element name="C31" library="rcl" package="PANASONIC_B" value="10u" x="125.4125" y="25.0825" smashed="yes" rot="R90">
+<attribute name="NAME" x="126.9375" y="27.15" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="127" y="28.2575" size="0.8128" layer="27"/>
 </element>
 <element name="C50" library="rcl" package="C0603" value="1u" x="103.505" y="27.305" smashed="yes" rot="R180">
-<attribute name="NAME" x="102.235" y="28.2575" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="112.0775" y="37.1475" size="0.6096" layer="27"/>
+<attribute name="NAME" x="100.33" y="27.94" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="100.33" y="27.305" size="0.6096" layer="27"/>
 </element>
-<element name="IN-R" library="pinhead" package="1X02" value="" x="8.255" y="4.1275" rot="R270"/>
-<element name="IN-L" library="pinhead" package="1X02" value="" x="13.0175" y="4.1275" rot="R270"/>
-<element name="GAIN" library="pinhead" package="1X04" value="" x="27.305" y="6.6675" rot="R270"/>
-<element name="OUT-R" library="pinhead" package="1X02" value="" x="17.78" y="4.1275" rot="R270"/>
-<element name="OUT-L" library="pinhead" package="1X02" value="" x="22.5425" y="4.1275" rot="R270"/>
-<element name="POS_CV" library="pinhead" package="1X01" value="" x="128.5875" y="2.54" rot="R90"/>
-<element name="V_OCT" library="pinhead" package="1X01" value="" x="113.665" y="2.54" rot="R90"/>
-<element name="BLND_CV" library="pinhead" package="1X01" value="" x="133.35" y="2.54" rot="R90"/>
-<element name="TEXT_CV" library="pinhead" package="1X01" value="" x="118.745" y="2.54" rot="R90"/>
-<element name="SIZE_CV" library="pinhead" package="1X01" value="" x="108.585" y="2.54" rot="R90"/>
-<element name="DENS_CV" library="pinhead" package="1X01" value="" x="123.825" y="2.54" rot="R90"/>
-<element name="POS_POT" library="pinhead" package="1X03" value="" x="39.0525" y="5.08" rot="R90"/>
-<element name="DENS_POT" library="pinhead" package="1X03" value="" x="33.655" y="5.08" rot="R90"/>
-<element name="RP_TRIG" library="pinhead" package="1X02" value="" x="143.8275" y="2.54"/>
-<element name="STPB_POTS" library="pinhead" package="1X06" value="" x="48.895" y="2.54"/>
-<element name="ML_BTN" library="pinhead" package="1X02" value="" x="143.51" y="7.9375"/>
-<element name="REC_LED-BTN" library="pinhead" package="1X02" value="" x="143.1925" y="12.7"/>
+<element name="IN-R" library="pinhead" package="1X02" value="" x="8.255" y="4.1275" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.0838" y="6.7437" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="5.08" y="6.6675" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="IN-L" library="pinhead" package="1X02" value="" x="13.0175" y="4.1275" smashed="yes" rot="R270">
+<attribute name="NAME" x="14.8463" y="6.7437" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="9.8425" y="6.6675" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="GAIN" library="pinhead" package="1X04" value="" x="27.6225" y="6.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.4513" y="11.5062" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="24.4475" y="11.43" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="OUT-R" library="pinhead" package="1X02" value="" x="17.78" y="4.1275" smashed="yes" rot="R270">
+<attribute name="NAME" x="19.6088" y="6.7437" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="14.605" y="6.6675" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="OUT-L" library="pinhead" package="1X02" value="" x="22.5425" y="4.1275" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.3713" y="6.7437" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="19.3675" y="6.6675" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="POS_CV" library="pinhead" package="1X01" value="" x="128.5875" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="126.7587" y="1.1938" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="131.7625" y="1.27" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="V_OCT" library="pinhead" package="1X01" value="" x="113.665" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="111.8362" y="1.1938" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="116.84" y="1.27" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="BLND_CV" library="pinhead" package="1X01" value="" x="133.35" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="131.5212" y="1.1938" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="136.525" y="1.27" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="TEXT_CV" library="pinhead" package="1X01" value="" x="118.745" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.9162" y="1.1938" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="121.92" y="1.27" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="SIZE_CV" library="pinhead" package="1X01" value="" x="108.585" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="106.7562" y="1.1938" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="111.76" y="1.27" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="DENS_CV" library="pinhead" package="1X01" value="" x="123.825" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="121.9962" y="1.1938" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="127" y="1.27" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="POS_POT" library="pinhead" package="1X03" value="" x="37.7825" y="5.3975" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.6113" y="9.2837" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="34.6075" y="9.2075" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="DENS_POT" library="pinhead" package="1X03" value="" x="32.385" y="5.3975" smashed="yes" rot="R270">
+<attribute name="NAME" x="34.2138" y="9.2837" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="29.21" y="9.2075" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="RP_TRIG" library="pinhead" package="1X02" value="" x="139.065" y="2.54" smashed="yes">
+<attribute name="NAME" x="136.4488" y="4.3688" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="136.525" y="-0.635" size="1.27" layer="27"/>
+</element>
+<element name="STPB_POTS" library="pinhead" package="1X06" value="" x="48.895" y="2.8575"/>
+<element name="ML_BTN" library="pinhead" package="1X02" value="" x="144.4625" y="6.985" smashed="yes">
+<attribute name="NAME" x="141.8463" y="8.8138" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="141.9225" y="3.81" size="1.27" layer="27"/>
+</element>
+<element name="REC_LED-BTN" library="pinhead" package="1X02" value="" x="144.4625" y="11.43" smashed="yes">
+<attribute name="NAME" x="141.8463" y="13.2588" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="141.9225" y="8.255" size="1.27" layer="27"/>
+</element>
 <element name="LED1" library="pinhead" package="1X03" value="" x="60.6425" y="4.7625" rot="R90"/>
 <element name="LED2" library="pinhead" package="1X03" value="" x="68.58" y="4.7625" rot="R90"/>
 <element name="LED3" library="pinhead" package="1X03" value="" x="76.2" y="4.7625" rot="R90"/>
 <element name="LED4" library="pinhead" package="1X03" value="" x="84.455" y="4.7625" rot="R90"/>
 <element name="POWER" library="con-amp" package="1X4MTA" value="" x="6.985" y="27.305" rot="R90"/>
-<element name="ORIG_MAP" library="pinhead" package="2X06" value="" x="44.7675" y="13.0175"/>
+<element name="ORIG_MAP" library="pinhead" package="2X06" value="" x="44.7675" y="13.0175" smashed="yes">
+<attribute name="NAME" x="43.815" y="8.89" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="37.1475" y="8.5725" size="1.27" layer="27"/>
+</element>
 <element name="NEW_MAP" library="pinhead" package="1X06" value="" x="44.7675" y="17.4625"/>
-<element name="SD" library="pinhead" package="1X06" value="" x="15.24" y="47.625"/>
+<element name="SPI" library="pinhead" package="1X06" value="" x="15.24" y="47.625"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1980,10 +2031,10 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="C31" pad="-"/>
 <contactref element="C50" pad="2"/>
 <polygon width="0.2032" layer="16">
-<vertex x="0" y="51.1175"/>
+<vertex x="0" y="51.435"/>
 <vertex x="0" y="0"/>
 <vertex x="152.0825" y="0.3175"/>
-<vertex x="152.4" y="50.4825"/>
+<vertex x="152.4" y="50.8"/>
 </polygon>
 <polygon width="0.2032" layer="1">
 <vertex x="0" y="51.1175"/>
@@ -2004,7 +2055,7 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="LED4" pad="2"/>
 <contactref element="POWER" pad="3"/>
 <contactref element="POWER" pad="2"/>
-<contactref element="SD" pad="2"/>
+<contactref element="SPI" pad="2"/>
 <wire x1="149.225" y1="36.195" x2="149.225" y2="37.465" width="0" layer="19" extent="1-1"/>
 <wire x1="149.225" y1="33.655" x2="149.225" y2="36.195" width="0" layer="19" extent="1-1"/>
 <wire x1="149.86" y1="30.1625" x2="149.225" y2="33.655" width="0" layer="19" extent="1-1"/>
@@ -2013,26 +2064,26 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="133.0325" y1="43.6" x2="138.335" y2="40.5475" width="0" layer="19" extent="1-1"/>
 <wire x1="134.4725" y1="21.275" x2="138.335" y2="33.7475" width="0" layer="19" extent="1-1"/>
 <wire x1="134.4725" y1="17.7825" x2="134.4725" y2="21.275" width="0" layer="19" extent="1-1"/>
-<wire x1="125.4125" y1="22.8475" x2="134.4725" y2="21.275" width="0" layer="19" extent="1-1"/>
+<wire x1="125.4125" y1="23.4825" x2="134.4725" y2="21.275" width="0" layer="19" extent="1-1"/>
 <wire x1="127" y1="10.8975" x2="134.4725" y2="17.7825" width="0" layer="19" extent="1-1"/>
 <wire x1="125.4125" y1="10.8975" x2="127" y2="10.8975" width="0" layer="19" extent="1-1"/>
 <wire x1="122.2375" y1="10.8975" x2="125.4125" y2="10.8975" width="0" layer="19" extent="1-1"/>
 <wire x1="120.65" y1="10.8975" x2="122.2375" y2="10.8975" width="0" layer="19" extent="1-1"/>
 <wire x1="115.8875" y1="15.2275" x2="120.65" y2="10.8975" width="0" layer="19" extent="1-1"/>
-<wire x1="112.395" y1="14.39" x2="115.8875" y2="15.2275" width="0" layer="19" extent="1-1"/>
-<wire x1="110.1147" y1="15.4675" x2="112.395" y2="14.39" width="0" layer="19" extent="1-1"/>
+<wire x1="112.395" y1="15.3425" x2="115.8875" y2="15.2275" width="0" layer="19" extent="1-1"/>
+<wire x1="110.1147" y1="15.4675" x2="112.395" y2="15.3425" width="0" layer="19" extent="1-1"/>
 <wire x1="110.1147" y1="19.3675" x2="110.1147" y2="15.4675" width="0" layer="19" extent="1-1"/>
 <wire x1="110.1147" y1="20.0175" x2="110.1147" y2="19.3675" width="0" layer="19" extent="1-1"/>
 <wire x1="110.1147" y1="23.9175" x2="110.1147" y2="20.0175" width="0" layer="19" extent="1-1"/>
-<wire x1="108.8" y1="25.4" x2="110.1147" y2="23.9175" width="0" layer="19" extent="1-1"/>
-<wire x1="110.2025" y1="27.94" x2="108.8" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="102.655" y1="26.035" x2="108.8" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="108.8" y1="26.035" x2="110.1147" y2="23.9175" width="0" layer="19" extent="1-1"/>
+<wire x1="109.25" y1="29.21" x2="108.8" y2="26.035" width="0" layer="19" extent="1-1"/>
+<wire x1="102.655" y1="26.035" x2="108.8" y2="26.035" width="0" layer="19" extent="1-1"/>
 <wire x1="102.655" y1="27.305" x2="102.655" y2="26.035" width="0" layer="19" extent="1-1"/>
 <wire x1="102.6103" y1="17.4175" x2="110.1147" y2="15.4675" width="0" layer="19" extent="1-1"/>
-<wire x1="99.695" y1="16.93" x2="102.6103" y2="17.4175" width="0" layer="19" extent="1-1"/>
-<wire x1="96.8375" y1="15.5275" x2="99.695" y2="16.93" width="0" layer="19" extent="1-1"/>
-<wire x1="94.2975" y1="10.8975" x2="96.8375" y2="15.5275" width="0" layer="19" extent="1-1"/>
-<wire x1="86.7375" y1="20.955" x2="96.8375" y2="15.5275" width="0" layer="19" extent="1-1"/>
+<wire x1="100.0125" y1="17.565" x2="102.6103" y2="17.4175" width="0" layer="19" extent="1-1"/>
+<wire x1="96.8375" y1="16.7975" x2="100.0125" y2="17.565" width="0" layer="19" extent="1-1"/>
+<wire x1="94.195" y1="13.0175" x2="96.8375" y2="16.7975" width="0" layer="19" extent="1-1"/>
+<wire x1="86.7375" y1="20.955" x2="96.8375" y2="16.7975" width="0" layer="19" extent="1-1"/>
 <wire x1="83.0825" y1="19.3675" x2="86.7375" y2="20.955" width="0" layer="19" extent="1-1"/>
 <wire x1="81.5375" y1="22.225" x2="83.0825" y2="19.3675" width="0" layer="19" extent="1-1"/>
 <wire x1="79.2725" y1="20.32" x2="81.5375" y2="22.225" width="0" layer="19" extent="1-1"/>
@@ -2043,7 +2094,7 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="68.58" y1="4.7625" x2="72.0163" y2="11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="76.2" y1="4.7625" x2="68.58" y2="4.7625" width="0" layer="19" extent="1-1"/>
 <wire x1="60.6425" y1="4.7625" x2="68.58" y2="4.7625" width="0" layer="19" extent="1-1"/>
-<wire x1="55.245" y1="2.54" x2="60.6425" y2="4.7625" width="0" layer="19" extent="1-1"/>
+<wire x1="55.245" y1="2.8575" x2="60.6425" y2="4.7625" width="0" layer="19" extent="1-1"/>
 <wire x1="64.9287" y1="20.8534" x2="70.0087" y2="14.7066" width="0" layer="19" extent="1-1"/>
 <wire x1="59.72405625" y1="24.03695625" x2="64.9287" y2="20.8534" width="0" layer="19" extent="1-1"/>
 <wire x1="57.113246875" y1="26.38925" x2="59.72405625" y2="24.03695625" width="0" layer="19" extent="1-1"/>
@@ -2054,11 +2105,11 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="56.47739375" y1="35.98023125" x2="53.6575" y2="32.2825" width="0" layer="19" extent="1-1"/>
 <wire x1="55.528540625" y1="38.701040625" x2="56.47739375" y2="35.98023125" width="0" layer="19" extent="1-1"/>
 <wire x1="54.576040625" y1="39.653540625" x2="55.528540625" y2="38.701040625" width="0" layer="19" extent="1-1"/>
-<wire x1="53.4425" y1="22.225" x2="57.113246875" y2="26.38925" width="0" layer="19" extent="1-1"/>
+<wire x1="53.76" y1="21.9075" x2="57.113246875" y2="26.38925" width="0" layer="19" extent="1-1"/>
 <wire x1="61.31155625" y1="42.193540625" x2="55.528540625" y2="38.701040625" width="0" layer="19" extent="1-1"/>
 <wire x1="63.81206875" y1="39.515765625" x2="61.31155625" y2="42.193540625" width="0" layer="19" extent="1-1"/>
-<wire x1="69.43" y1="43.18" x2="63.81206875" y2="39.515765625" width="0" layer="19" extent="1-1"/>
-<wire x1="72.175" y1="43.18" x2="69.43" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="69.43" y1="42.2275" x2="63.81206875" y2="39.515765625" width="0" layer="19" extent="1-1"/>
+<wire x1="72.175" y1="42.2275" x2="69.43" y2="42.2275" width="0" layer="19" extent="1-1"/>
 <wire x1="47.3075" y1="34.8234" x2="53.6575" y2="32.2825" width="0" layer="19" extent="1-1"/>
 <wire x1="46.0375" y1="34.8234" x2="47.3075" y2="34.8234" width="0" layer="19" extent="1-1"/>
 <wire x1="44.7675" y1="34.8234" x2="46.0375" y2="34.8234" width="0" layer="19" extent="1-1"/>
@@ -2067,7 +2118,7 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="38.4175" y1="29.15" x2="39.6875" y2="29.15" width="0" layer="19" extent="1-1"/>
 <wire x1="44.7675" y1="28.6766" x2="39.6875" y2="29.15" width="0" layer="19" extent="1-1"/>
 <wire x1="47.3075" y1="28.6766" x2="44.7675" y2="28.6766" width="0" layer="19" extent="1-1"/>
-<wire x1="45.4025" y1="24.2325" x2="44.7675" y2="28.6766" width="0" layer="19" extent="1-1"/>
+<wire x1="45.1875" y1="26.3525" x2="44.7675" y2="28.6766" width="0" layer="19" extent="1-1"/>
 <wire x1="34.29" y1="32.4875" x2="38.4175" y2="29.15" width="0" layer="19" extent="1-1"/>
 <wire x1="84.455" y1="4.7625" x2="76.2" y2="4.7625" width="0" layer="19" extent="1-1"/>
 <wire x1="28.7525" y1="25.4" x2="34.29" y2="32.4875" width="0" layer="19" extent="1-1"/>
@@ -2077,12 +2128,12 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="26.53" y1="40.64" x2="34.29" y2="32.4875" width="0" layer="19" extent="1-1"/>
 <wire x1="25.185" y1="44.7675" x2="26.53" y2="40.64" width="0" layer="19" extent="1-1"/>
 <wire x1="19.965" y1="35.935" x2="26.53" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="33.795" y1="45.085" x2="26.53" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="41.3775" y1="47.625" x2="33.795" y2="45.085" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5725" y1="45.72" x2="26.53" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="41.3775" y1="47.625" x2="31.5725" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="44.62" y1="47.6225" x2="41.3775" y2="47.625" width="0" layer="19" extent="1-1"/>
-<wire x1="33.655" y1="7.62" x2="28.7525" y2="18.415" width="0" layer="19" extent="1-1"/>
-<wire x1="39.0525" y1="7.62" x2="33.655" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="22.5425" y1="2.8575" x2="33.655" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="32.385" y1="2.8575" x2="28.7525" y2="18.415" width="0" layer="19" extent="1-1"/>
+<wire x1="37.7825" y1="2.8575" x2="32.385" y2="2.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="22.5425" y1="2.8575" x2="32.385" y2="2.8575" width="0" layer="19" extent="1-1"/>
 <wire x1="17.78" y1="2.8575" x2="22.5425" y2="2.8575" width="0" layer="19" extent="1-1"/>
 <wire x1="13.0175" y1="2.8575" x2="17.78" y2="2.8575" width="0" layer="19" extent="1-1"/>
 <wire x1="8.255" y1="2.8575" x2="13.0175" y2="2.8575" width="0" layer="19" extent="1-1"/>
@@ -2093,23 +2144,23 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="6.985" y1="25.3238" x2="13.12" y2="16.8275" width="0" layer="19" extent="1-1"/>
 <wire x1="6.985" y1="29.2862" x2="6.985" y2="25.3238" width="0" layer="19" extent="1-1"/>
 <wire x1="86.855" y1="44.7675" x2="82.1944" y2="33.3629" width="0" layer="19" extent="1-1"/>
-<wire x1="102.6088" y1="43.815" x2="86.855" y2="44.7675" width="0" layer="19" extent="1-1"/>
-<wire x1="108.8463" y1="43.815" x2="102.6088" y2="43.815" width="0" layer="19" extent="1-1"/>
+<wire x1="121.285" y1="32.9637" x2="86.855" y2="44.7675" width="0" layer="19" extent="1-1"/>
+<wire x1="121.285" y1="26.7262" x2="121.285" y2="32.9637" width="0" layer="19" extent="1-1"/>
 <wire x1="11.43" y1="47.625" x2="8.255" y2="2.8575" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="Q3" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="IC5" pad="5"/>
-<wire x1="73.875" y1="43.18" x2="76.2635" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="58.952265625" y1="38.455103125" x2="73.875" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="73.875" y1="42.2275" x2="76.2635" y2="46.0375" width="0" layer="19" extent="1-1"/>
+<wire x1="58.952265625" y1="38.455103125" x2="73.875" y2="42.2275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="C6" pad="2"/>
 <contactref element="Q3" pad="1"/>
 <contactref element="IC5" pad="6"/>
-<wire x1="67.73" y1="43.18" x2="66.6115" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="58.5987125" y1="38.10155" x2="67.73" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="67.73" y1="42.2275" x2="66.6115" y2="46.0375" width="0" layer="19" extent="1-1"/>
+<wire x1="58.5987125" y1="38.10155" x2="67.73" y2="42.2275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOT_FLASH">
 <contactref element="SW4" pad="A"/>
@@ -2208,21 +2259,21 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="C49" pad="+"/>
 <contactref element="C31" pad="+"/>
 <contactref element="STPB_POTS" pad="1"/>
-<wire x1="102.6103" y1="19.3675" x2="125.4125" y2="26.0475" width="0" layer="19" extent="1-1"/>
-<wire x1="99.695" y1="18.63" x2="102.6103" y2="19.3675" width="0" layer="19" extent="1-1"/>
-<wire x1="96.8375" y1="18.1275" x2="99.695" y2="18.63" width="0" layer="19" extent="1-1"/>
+<wire x1="102.6103" y1="19.3675" x2="125.4125" y2="26.6825" width="0" layer="19" extent="1-1"/>
+<wire x1="100.0125" y1="19.265" x2="102.6103" y2="19.3675" width="0" layer="19" extent="1-1"/>
+<wire x1="96.8375" y1="19.3975" x2="100.0125" y2="19.265" width="0" layer="19" extent="1-1"/>
 <wire x1="102.6103" y1="15.4675" x2="102.6103" y2="19.3675" width="0" layer="19" extent="1-1"/>
-<wire x1="84.4804" y1="33.3629" x2="96.8375" y2="18.1275" width="0" layer="19" extent="1-1"/>
+<wire x1="84.4804" y1="33.3629" x2="96.8375" y2="19.3975" width="0" layer="19" extent="1-1"/>
 <wire x1="82.055" y1="44.7675" x2="84.4804" y2="33.3629" width="0" layer="19" extent="1-1"/>
 <wire x1="56.123840625" y1="35.626678125" x2="82.055" y2="44.7675" width="0" layer="19" extent="1-1"/>
 <wire x1="54.32645625" y1="37.49895625" x2="56.123840625" y2="35.626678125" width="0" layer="19" extent="1-1"/>
 <wire x1="53.37395625" y1="38.45145625" x2="54.32645625" y2="37.49895625" width="0" layer="19" extent="1-1"/>
 <wire x1="46.0375" y1="28.6766" x2="54.32645625" y2="37.49895625" width="0" layer="19" extent="1-1"/>
-<wire x1="45.4025" y1="25.9325" x2="46.0375" y2="28.6766" width="0" layer="19" extent="1-1"/>
-<wire x1="55.1425" y1="22.225" x2="45.4025" y2="25.9325" width="0" layer="19" extent="1-1"/>
+<wire x1="46.8875" y1="26.3525" x2="46.0375" y2="28.6766" width="0" layer="19" extent="1-1"/>
+<wire x1="55.46" y1="21.9075" x2="46.8875" y2="26.3525" width="0" layer="19" extent="1-1"/>
 <wire x1="35.8775" y1="34.35" x2="46.0375" y2="28.6766" width="0" layer="19" extent="1-1"/>
 <wire x1="34.29" y1="34.1875" x2="35.8775" y2="34.35" width="0" layer="19" extent="1-1"/>
-<wire x1="42.545" y1="2.54" x2="55.1425" y2="22.225" width="0" layer="19" extent="1-1"/>
+<wire x1="42.545" y1="2.8575" x2="55.46" y2="21.9075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SCL">
 <contactref element="IC8" pad="24"/>
@@ -2362,8 +2413,8 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="42.0125" y1="40.005" x2="50.0625" y2="40.005" width="0" layer="19" extent="1-1"/>
 <wire x1="50.0625" y1="23.495" x2="50.0625" y2="40.005" width="0" layer="19" extent="1-1"/>
 <wire x1="42.0125" y1="23.495" x2="50.0625" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="39.0525" y1="2.54" x2="42.0125" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="33.655" y1="2.54" x2="39.0525" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="37.7825" y1="7.9375" x2="42.0125" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="32.385" y1="7.9375" x2="37.7825" y2="7.9375" width="0" layer="19" extent="1-1"/>
 <wire x1="44.62" y1="45.7225" x2="42.0125" y2="40.005" width="0" layer="19" extent="1-1"/>
 <wire x1="43.0775" y1="46.0375" x2="44.62" y2="45.7225" width="0" layer="19" extent="1-1"/>
 <wire x1="43.0775" y1="47.625" x2="43.0775" y2="46.0375" width="0" layer="19" extent="1-1"/>
@@ -2380,8 +2431,8 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="16.1875" y1="21.2725" x2="81.3825" y2="19.3675" width="0" layer="19" extent="1-1"/>
 <wire x1="11.37" y1="11.43" x2="16.1875" y2="21.2725" width="0" layer="19" extent="1-1"/>
 <wire x1="13.12" y1="9.8425" x2="11.37" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="38.595" y1="45.085" x2="16.1875" y2="21.2725" width="0" layer="19" extent="1-1"/>
-<wire x1="41.3775" y1="46.0375" x2="38.595" y2="45.085" width="0" layer="19" extent="1-1"/>
+<wire x1="36.3725" y1="45.72" x2="16.1875" y2="21.2725" width="0" layer="19" extent="1-1"/>
+<wire x1="41.3775" y1="46.0375" x2="36.3725" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$56">
 <contactref element="D1" pad="A"/>
@@ -2407,12 +2458,12 @@ RJ45 Jack connectors&lt;br&gt;
 <signal name="LOUT">
 <contactref element="IC8" pad="12"/>
 <contactref element="C33" pad="+"/>
-<wire x1="100.66" y1="12.065" x2="102.6103" y2="16.7675" width="0" layer="19" extent="1-1"/>
+<wire x1="100.9775" y1="10.795" x2="102.6103" y2="16.7675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ROUT">
 <contactref element="IC8" pad="13"/>
 <contactref element="C41" pad="+"/>
-<wire x1="106.6925" y1="10.795" x2="102.6103" y2="16.1175" width="0" layer="19" extent="1-1"/>
+<wire x1="107.645" y1="10.795" x2="102.6103" y2="16.1175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LIN">
 <contactref element="IC8" pad="20"/>
@@ -2428,8 +2479,8 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="IC8" pad="16"/>
 <contactref element="C34" pad="1"/>
 <contactref element="C35" pad="+"/>
-<wire x1="112.395" y1="16.09" x2="115.8875" y2="18.4275" width="0" layer="19" extent="1-1"/>
-<wire x1="110.1147" y1="16.1175" x2="112.395" y2="16.09" width="0" layer="19" extent="1-1"/>
+<wire x1="112.395" y1="17.0425" x2="115.8875" y2="18.4275" width="0" layer="19" extent="1-1"/>
+<wire x1="110.1147" y1="16.1175" x2="112.395" y2="17.0425" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="R53" pad="1"/>
@@ -2458,8 +2509,8 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="C41" pad="-"/>
 <contactref element="R50" pad="2"/>
 <contactref element="R52" pad="2"/>
-<wire x1="94.2975" y1="12.5975" x2="103.4925" y2="10.795" width="0" layer="19" extent="1-1"/>
-<wire x1="91.3375" y1="21.9075" x2="94.2975" y2="12.5975" width="0" layer="19" extent="1-1"/>
+<wire x1="92.495" y1="13.0175" x2="104.445" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="91.3375" y1="21.9075" x2="92.495" y2="13.0175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R52" pad="1"/>
@@ -2488,7 +2539,7 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="C33" pad="-"/>
 <contactref element="R59" pad="2"/>
 <contactref element="R51" pad="2"/>
-<wire x1="77.5725" y1="20.32" x2="97.46" y2="12.065" width="0" layer="19" extent="1-1"/>
+<wire x1="77.5725" y1="20.32" x2="97.7775" y2="10.795" width="0" layer="19" extent="1-1"/>
 <wire x1="77.5725" y1="21.9075" x2="77.5725" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
@@ -2505,19 +2556,19 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="R49" pad="1"/>
 <contactref element="R61" pad="2"/>
 <contactref element="IC10" pad="1"/>
-<wire x1="81.5375" y1="24.765" x2="81.495" y2="26.9875" width="0" layer="19" extent="1-1"/>
+<wire x1="81.5375" y1="24.765" x2="80.5425" y2="26.9875" width="0" layer="19" extent="1-1"/>
 <wire x1="77.5725" y1="25.0825" x2="81.5375" y2="24.765" width="0" layer="19" extent="1-1"/>
 <wire x1="77.5725" y1="23.495" x2="77.5725" y2="25.0825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LOUT_JACK">
 <contactref element="R61" pad="1"/>
 <contactref element="OUT-L" pad="1"/>
-<wire x1="22.5425" y1="5.3975" x2="79.795" y2="26.9875" width="0" layer="19" extent="1-1"/>
+<wire x1="22.5425" y1="5.3975" x2="78.8425" y2="26.9875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="R32" pad="2"/>
 <contactref element="DENS_CV" pad="1"/>
-<wire x1="38.1" y1="25.185" x2="123.825" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="36.5125" y1="24.8675" x2="123.825" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="R32" pad="1"/>
@@ -2525,15 +2576,15 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="C22" pad="1"/>
 <contactref element="R33" pad="1"/>
 <contactref element="IC3" pad="2"/>
-<wire x1="39.6875" y1="26.885" x2="38.1" y2="26.885" width="0" layer="19" extent="1-1"/>
-<wire x1="36.5125" y1="26.885" x2="38.1" y2="26.885" width="0" layer="19" extent="1-1"/>
-<wire x1="34.925" y1="26.885" x2="36.5125" y2="26.885" width="0" layer="19" extent="1-1"/>
-<wire x1="37.1475" y1="29.15" x2="36.5125" y2="26.885" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="26.5675" x2="36.5125" y2="26.5675" width="0" layer="19" extent="1-1"/>
+<wire x1="34.925" y1="26.5675" x2="36.5125" y2="26.5675" width="0" layer="19" extent="1-1"/>
+<wire x1="33.3375" y1="26.5675" x2="34.925" y2="26.5675" width="0" layer="19" extent="1-1"/>
+<wire x1="37.1475" y1="29.15" x2="34.925" y2="26.5675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="R33" pad="2"/>
 <contactref element="DENS_POT" pad="2"/>
-<wire x1="33.655" y1="5.08" x2="39.6875" y2="25.185" width="0" layer="19" extent="1-1"/>
+<wire x1="32.385" y1="5.3975" x2="38.1" y2="24.8675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="R29" pad="2"/>
@@ -2554,7 +2605,7 @@ RJ45 Jack connectors&lt;br&gt;
 <signal name="N$35">
 <contactref element="R28" pad="2"/>
 <contactref element="POS_POT" pad="2"/>
-<wire x1="39.0525" y1="5.08" x2="38.4175" y2="38.315" width="0" layer="19" extent="1-1"/>
+<wire x1="37.7825" y1="5.3975" x2="38.4175" y2="38.315" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="POSITION_POT_CV">
 <contactref element="R27" pad="1"/>
@@ -2571,13 +2622,13 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="IC3" pad="1"/>
 <contactref element="IC5" pad="17"/>
 <wire x1="35.8775" y1="29.15" x2="55.081140625" y2="31.491940625" width="0" layer="19" extent="1-1"/>
-<wire x1="36.5125" y1="25.185" x2="35.8775" y2="29.15" width="0" layer="19" extent="1-1"/>
-<wire x1="34.925" y1="25.185" x2="36.5125" y2="25.185" width="0" layer="19" extent="1-1"/>
+<wire x1="34.925" y1="24.8675" x2="35.8775" y2="29.15" width="0" layer="19" extent="1-1"/>
+<wire x1="33.3375" y1="24.8675" x2="34.925" y2="24.8675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_REC">
 <contactref element="IC5" pad="61"/>
 <contactref element="REC_LED-BTN" pad="2"/>
-<wire x1="64.519178125" y1="38.80865625" x2="144.4625" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="64.519178125" y1="38.80865625" x2="145.7325" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REC">
 <contactref element="Q1" pad="C"/>
@@ -2596,7 +2647,7 @@ RJ45 Jack connectors&lt;br&gt;
 <signal name="N$57">
 <contactref element="R12" pad="1"/>
 <contactref element="RP_TRIG" pad="1"/>
-<wire x1="142.5575" y1="2.54" x2="130.9125" y2="23.1775" width="0" layer="19" extent="1-1"/>
+<wire x1="137.795" y1="2.54" x2="130.9125" y2="23.1775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$66">
 <contactref element="R12" pad="2"/>
@@ -2606,7 +2657,7 @@ RJ45 Jack connectors&lt;br&gt;
 <signal name="N$36">
 <contactref element="R15" pad="1"/>
 <contactref element="RP_TRIG" pad="2"/>
-<wire x1="145.0975" y1="2.54" x2="130.9125" y2="19.685" width="0" layer="19" extent="1-1"/>
+<wire x1="140.335" y1="2.54" x2="130.9125" y2="19.685" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="R15" pad="2"/>
@@ -2616,37 +2667,37 @@ RJ45 Jack connectors&lt;br&gt;
 <signal name="N$38">
 <contactref element="R2" pad="2"/>
 <contactref element="REC_LED-BTN" pad="1"/>
-<wire x1="138.43" y1="9.945" x2="141.9225" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="140.2325" y1="11.43" x2="143.1925" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_REC">
 <contactref element="R2" pad="1"/>
 <contactref element="IC5" pad="62"/>
-<wire x1="64.165625" y1="39.162209375" x2="138.43" y2="11.645" width="0" layer="19" extent="1-1"/>
+<wire x1="64.165625" y1="39.162209375" x2="138.5325" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIZE_POT">
 <contactref element="IC5" pad="8"/>
 <contactref element="STPB_POTS" pad="2"/>
-<wire x1="45.085" y1="2.54" x2="57.89160625" y2="37.39444375" width="0" layer="19" extent="1-1"/>
+<wire x1="45.085" y1="2.8575" x2="57.89160625" y2="37.39444375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TEXTURE_POT">
 <contactref element="STPB_POTS" pad="3"/>
 <contactref element="ORIG_MAP" pad="10"/>
-<wire x1="47.625" y1="2.54" x2="48.5775" y2="14.2875" width="0" layer="19" extent="1-1"/>
+<wire x1="47.625" y1="2.8575" x2="48.5775" y2="14.2875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BLEND_POT">
 <contactref element="STPB_POTS" pad="5"/>
 <contactref element="ORIG_MAP" pad="12"/>
-<wire x1="52.705" y1="2.54" x2="51.1175" y2="14.2875" width="0" layer="19" extent="1-1"/>
+<wire x1="52.705" y1="2.8575" x2="51.1175" y2="14.2875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_MODE">
 <contactref element="IC5" pad="52"/>
 <contactref element="ML_BTN" pad="1"/>
-<wire x1="67.70115625" y1="35.626678125" x2="142.24" y2="7.9375" width="0" layer="19" extent="1-1"/>
+<wire x1="67.70115625" y1="35.626678125" x2="143.1925" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW_LOAD">
 <contactref element="IC5" pad="51"/>
 <contactref element="ML_BTN" pad="2"/>
-<wire x1="68.054709375" y1="35.273125" x2="144.78" y2="7.9375" width="0" layer="19" extent="1-1"/>
+<wire x1="68.054709375" y1="35.273125" x2="145.7325" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_EN">
 <contactref element="IC1" pad="12"/>
@@ -2742,25 +2793,25 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="IC9" pad="7"/>
 <contactref element="R53" pad="2"/>
 <contactref element="GAIN" pad="2"/>
-<wire x1="27.305" y1="7.9375" x2="119.0625" y2="10.8975" width="0" layer="19" extent="1-1"/>
-<wire x1="16.57" y1="13.97" x2="27.305" y2="7.9375" width="0" layer="19" extent="1-1"/>
+<wire x1="27.6225" y1="7.62" x2="119.0625" y2="10.8975" width="0" layer="19" extent="1-1"/>
+<wire x1="16.57" y1="13.97" x2="27.6225" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
 <contactref element="IC9" pad="1"/>
 <contactref element="R55" pad="2"/>
 <contactref element="GAIN" pad="3"/>
-<wire x1="27.305" y1="5.3975" x2="123.825" y2="10.8975" width="0" layer="19" extent="1-1"/>
-<wire x1="11.37" y1="15.24" x2="27.305" y2="5.3975" width="0" layer="19" extent="1-1"/>
+<wire x1="27.6225" y1="5.08" x2="123.825" y2="10.8975" width="0" layer="19" extent="1-1"/>
+<wire x1="11.37" y1="15.24" x2="27.6225" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$52">
 <contactref element="R47" pad="1"/>
 <contactref element="GAIN" pad="1"/>
-<wire x1="19.05" y1="15.455" x2="27.305" y2="10.4775" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="15.455" x2="27.6225" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$53">
 <contactref element="R46" pad="1"/>
 <contactref element="GAIN" pad="4"/>
-<wire x1="8.89" y1="15.455" x2="27.305" y2="2.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="15.455" x2="27.6225" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$54">
 <contactref element="R47" pad="2"/>
@@ -2784,7 +2835,7 @@ RJ45 Jack connectors&lt;br&gt;
 <signal name="PITCH_POT">
 <contactref element="IC5" pad="9"/>
 <contactref element="STPB_POTS" pad="4"/>
-<wire x1="50.165" y1="2.54" x2="57.538053125" y2="37.040890625" width="0" layer="19" extent="1-1"/>
+<wire x1="50.165" y1="2.8575" x2="57.538053125" y2="37.040890625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="R17" pad="2"/>
@@ -2815,16 +2866,16 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="IC2" pad="3"/>
 <contactref element="C28" pad="+"/>
 <contactref element="C50" pad="1"/>
-<contactref element="SD" pad="1"/>
+<contactref element="SPI" pad="1"/>
 <wire x1="140.335" y1="45.3" x2="149.225" y2="38.735" width="0" layer="19" extent="1-1"/>
 <wire x1="134.715" y1="40.5475" x2="140.335" y2="45.3" width="0" layer="19" extent="1-1"/>
 <wire x1="134.715" y1="33.7475" x2="134.715" y2="40.5475" width="0" layer="19" extent="1-1"/>
 <wire x1="140.2325" y1="22.225" x2="134.715" y2="33.7475" width="0" layer="19" extent="1-1"/>
 <wire x1="140.2325" y1="18.7325" x2="140.2325" y2="22.225" width="0" layer="19" extent="1-1"/>
 <wire x1="110.1147" y1="23.2675" x2="134.715" y2="33.7475" width="0" layer="19" extent="1-1"/>
-<wire x1="107.1" y1="25.4" x2="110.1147" y2="23.2675" width="0" layer="19" extent="1-1"/>
-<wire x1="107.6025" y1="27.94" x2="107.1" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="104.355" y1="26.035" x2="107.1" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="107.1" y1="26.035" x2="110.1147" y2="23.2675" width="0" layer="19" extent="1-1"/>
+<wire x1="106.65" y1="29.21" x2="107.1" y2="26.035" width="0" layer="19" extent="1-1"/>
+<wire x1="104.355" y1="26.035" x2="107.1" y2="26.035" width="0" layer="19" extent="1-1"/>
 <wire x1="104.355" y1="27.305" x2="104.355" y2="26.035" width="0" layer="19" extent="1-1"/>
 <wire x1="102.6103" y1="23.9175" x2="104.355" y2="26.035" width="0" layer="19" extent="1-1"/>
 <wire x1="73.8187" y1="14.7066" x2="102.6103" y2="23.9175" width="0" layer="19" extent="1-1"/>
@@ -2861,15 +2912,15 @@ RJ45 Jack connectors&lt;br&gt;
 <contactref element="C47" pad="2"/>
 <contactref element="Q4" pad="1"/>
 <contactref element="IC8" pad="26"/>
-<wire x1="100.9015" y1="40.3225" x2="100.9088" y2="43.815" width="0" layer="19" extent="1-1"/>
-<wire x1="110.1147" y1="22.6175" x2="100.9015" y2="40.3225" width="0" layer="19" extent="1-1"/>
+<wire x1="117.7925" y1="34.671" x2="121.285" y2="34.6637" width="0" layer="19" extent="1-1"/>
+<wire x1="110.1147" y1="22.6175" x2="117.7925" y2="34.671" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$60">
 <contactref element="Q4" pad="2"/>
 <contactref element="C48" pad="2"/>
 <contactref element="IC8" pad="25"/>
-<wire x1="110.5535" y1="40.3225" x2="110.5463" y2="43.815" width="0" layer="19" extent="1-1"/>
-<wire x1="110.1147" y1="21.9675" x2="110.5535" y2="40.3225" width="0" layer="19" extent="1-1"/>
+<wire x1="117.7925" y1="25.019" x2="121.285" y2="25.0262" width="0" layer="19" extent="1-1"/>
+<wire x1="110.1147" y1="21.9675" x2="117.7925" y2="25.019" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC4">
 <contactref element="ORIG_MAP" pad="1"/>
@@ -2888,28 +2939,28 @@ RJ45 Jack connectors&lt;br&gt;
 <signal name="PA4">
 <contactref element="ORIG_MAP" pad="5"/>
 <contactref element="IC5" pad="20"/>
-<contactref element="SD" pad="3"/>
+<contactref element="SPI" pad="3"/>
 <wire x1="43.4975" y1="11.7475" x2="56.1418" y2="30.43128125" width="0" layer="19" extent="1-1"/>
 <wire x1="13.97" y1="47.625" x2="43.4975" y2="11.7475" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA5">
 <contactref element="ORIG_MAP" pad="7"/>
 <contactref element="IC5" pad="21"/>
-<contactref element="SD" pad="4"/>
+<contactref element="SPI" pad="4"/>
 <wire x1="46.0375" y1="11.7475" x2="56.495353125" y2="30.077728125" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="47.625" x2="46.0375" y2="11.7475" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA6">
 <contactref element="ORIG_MAP" pad="9"/>
 <contactref element="IC5" pad="22"/>
-<contactref element="SD" pad="5"/>
+<contactref element="SPI" pad="5"/>
 <wire x1="48.5775" y1="11.7475" x2="56.84890625" y2="29.724175" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="47.625" x2="48.5775" y2="11.7475" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA7">
 <contactref element="ORIG_MAP" pad="11"/>
 <contactref element="IC5" pad="23"/>
-<contactref element="SD" pad="6"/>
+<contactref element="SPI" pad="6"/>
 <wire x1="51.1175" y1="11.7475" x2="57.202459375" y2="29.370621875" width="0" layer="19" extent="1-1"/>
 <wire x1="21.59" y1="47.625" x2="51.1175" y2="11.7475" width="0" layer="19" extent="1-1"/>
 </signal>

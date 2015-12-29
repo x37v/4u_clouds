@@ -19122,7 +19122,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="POWER" library="con-amp" deviceset="MTA04-156" device=""/>
 <part name="ORIG_MAP" library="pinhead" deviceset="PINHD-2X6" device=""/>
 <part name="NEW_MAP" library="pinhead" deviceset="PINHD-1X6" device=""/>
-<part name="SD" library="pinhead" deviceset="PINHD-1X6" device=""/>
+<part name="SPI" library="pinhead" deviceset="PINHD-1X6" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19199,7 +19199,7 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="C50" gate="G$1" x="40.64" y="-30.48"/>
 <instance part="ORIG_MAP" gate="A" x="142.24" y="-25.4"/>
 <instance part="NEW_MAP" gate="A" x="142.24" y="-50.8"/>
-<instance part="SD" gate="A" x="106.68" y="-50.8"/>
+<instance part="SPI" gate="A" x="106.68" y="-50.8"/>
 </instances>
 <busses>
 </busses>
@@ -19396,7 +19396,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="GND74" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SD" gate="A" pin="2"/>
+<pinref part="SPI" gate="A" pin="2"/>
 <wire x1="96.52" y1="-45.72" x2="104.14" y2="-45.72" width="0.1524" layer="91"/>
 <label x="88.9" y="-45.72" size="1.778" layer="95"/>
 </segment>
@@ -19497,7 +19497,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="SD" gate="A" pin="1"/>
+<pinref part="SPI" gate="A" pin="1"/>
 <wire x1="96.52" y1="-43.18" x2="104.14" y2="-43.18" width="0.1524" layer="91"/>
 <label x="88.9" y="-43.18" size="1.778" layer="95"/>
 </segment>
@@ -20029,7 +20029,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="IC5" gate="G$$1" pin="PA4/SPI1_NSS/SPI3_NSS/USART2_CK/I2S3_WS/ADC4/DAC1"/>
 </segment>
 <segment>
-<pinref part="SD" gate="A" pin="3"/>
+<pinref part="SPI" gate="A" pin="3"/>
 <wire x1="96.52" y1="-48.26" x2="104.14" y2="-48.26" width="0.1524" layer="91"/>
 <label x="88.9" y="-48.26" size="1.778" layer="95"/>
 </segment>
@@ -20046,7 +20046,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="IC5" gate="G$$1" pin="PA5/SPI1_SCK/ADC5/DAC2"/>
 </segment>
 <segment>
-<pinref part="SD" gate="A" pin="4"/>
+<pinref part="SPI" gate="A" pin="4"/>
 <wire x1="96.52" y1="-50.8" x2="104.14" y2="-50.8" width="0.1524" layer="91"/>
 <label x="88.9" y="-50.8" size="1.778" layer="95"/>
 </segment>
@@ -20063,7 +20063,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="IC5" gate="G$$1" pin="PA6/SPI1_MISO/ADC6/TIM3_CH1"/>
 </segment>
 <segment>
-<pinref part="SD" gate="A" pin="5"/>
+<pinref part="SPI" gate="A" pin="5"/>
 <wire x1="96.52" y1="-53.34" x2="104.14" y2="-53.34" width="0.1524" layer="91"/>
 <label x="88.9" y="-53.34" size="1.778" layer="95"/>
 </segment>
@@ -20080,7 +20080,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="IC5" gate="G$$1" pin="PA7/SPI1_MOSI/ADC7/TIM3_CH2"/>
 </segment>
 <segment>
-<pinref part="SD" gate="A" pin="6"/>
+<pinref part="SPI" gate="A" pin="6"/>
 <wire x1="96.52" y1="-55.88" x2="104.14" y2="-55.88" width="0.1524" layer="91"/>
 <label x="88.9" y="-55.88" size="1.778" layer="95"/>
 </segment>
@@ -21689,6 +21689,72 @@ RJ45 Jack connectors&lt;br&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="204,1,-50.8,91.44,IC5,VBAT,,,,"/>
+<approved hash="104,1,-50.8,101.6,IC5,VDDA,+3V3_A,,,"/>
+<approved hash="104,1,-50.8,86.36,IC5,VDD_1,+3V3,,,"/>
+<approved hash="104,1,-50.8,83.82,IC5,VDD_2,+3V3,,,"/>
+<approved hash="104,1,-50.8,81.28,IC5,VDD_3,+3V3,,,"/>
+<approved hash="104,1,-50.8,78.74,IC5,VDD_4,+3V3,,,"/>
+<approved hash="104,1,-50.8,96.52,IC5,VSSA,GND,,,"/>
+<approved hash="104,1,-50.8,71.12,IC5,VCAP_1,N$19,,,"/>
+<approved hash="104,1,-50.8,68.58,IC5,VCAP_2,N$13,,,"/>
+<approved hash="104,1,-50.8,66.04,IC5,VSS_3,GND,,,"/>
+<approved hash="104,1,-50.8,63.5,IC5,VSS_4,GND,,,"/>
+<approved hash="104,2,109.22,-53.34,IC4P,V+,+3V3_A,,,"/>
+<approved hash="104,2,109.22,-68.58,IC4P,V-,GND,,,"/>
+<approved hash="104,2,104.14,-53.34,IC3P,V+,+3V3_A,,,"/>
+<approved hash="104,2,104.14,-68.58,IC3P,V-,GND,,,"/>
+<approved hash="104,2,109.22,63.5,IC10P,V+,VCC,,,"/>
+<approved hash="104,2,109.22,48.26,IC10P,V-,VEE,,,"/>
+<approved hash="104,2,104.14,63.5,IC9P,V+,VCC,,,"/>
+<approved hash="104,2,104.14,48.26,IC9P,V-,VEE,,,"/>
+<approved hash="104,3,261.62,127,IC1P,VCC,+3V3,,,"/>
+<approved hash="208,1,-109.22,30.48,+3V3,sup,,,,"/>
+<approved hash="208,1,-109.22,-10.16,+3V3,sup,,,,"/>
+<approved hash="208,1,-20.32,-22.86,+3V3,sup,,,,"/>
+<approved hash="208,1,-127,104.14,+3V3,sup,,,,"/>
+<approved hash="208,1,-66.04,88.9,+3V3,sup,,,,"/>
+<approved hash="208,1,137.16,83.82,+3V3,sup,,,,"/>
+<approved hash="208,1,12.7,-22.86,+3V3,sup,,,,"/>
+<approved hash="208,1,116.84,76.2,+3V3,sup,,,,"/>
+<approved hash="208,3,78.74,175.26,+3V3,sup,,,,"/>
+<approved hash="208,3,78.74,127,+3V3,sup,,,,"/>
+<approved hash="208,3,241.3,160.02,+3V3,sup,,,,"/>
+<approved hash="208,3,261.62,132.08,+3V3,sup,,,,"/>
+<approved hash="208,4,43.18,35.56,+3V3,sup,,,,"/>
+<approved hash="208,4,30.48,33.02,+3V3,out,,,,"/>
+<approved hash="113,1,28.471,20.851,FRAME3,,,,,"/>
+<approved hash="113,1,-112.437,71.3147,JP1,,,,,"/>
+<approved hash="113,2,5.611,-14.709,FRAME1,,,,,"/>
+<approved hash="113,3,193.571,130.071,FRAME4,,,,,"/>
+<approved hash="113,4,51.331,28.471,FRAME2,,,,,"/>
+<approved hash="113,2,-122.157,78.8712,IN-R,,,,,"/>
+<approved hash="113,2,-127.237,38.2312,IN-L,,,,,"/>
+<approved hash="113,2,-55.6429,66.1712,GAIN,,,,,"/>
+<approved hash="113,2,76.4829,71.2512,OUT-R,,,,,"/>
+<approved hash="113,2,76.4829,33.1512,OUT-L,,,,,"/>
+<approved hash="113,2,-130.641,-36.6988,POS_CV,,,,,"/>
+<approved hash="113,2,-53.6229,-36.6988,V_OCT,,,,,"/>
+<approved hash="113,2,13.3199,-36.6988,BLND_CV,,,,,"/>
+<approved hash="113,2,10.7799,-92.5788,TEXT_CV,,,,,"/>
+<approved hash="113,2,-52.4472,-92.5788,SIZE_CV,,,,,"/>
+<approved hash="113,2,-134,-92.5788,DENS_CV,,,,,"/>
+<approved hash="113,2,-102.22,-11.2988,POS_POT,,,,,"/>
+<approved hash="113,2,-103.941,-64.6388,DENS_POT,,,,,"/>
+<approved hash="113,3,36.4528,129.671,RP_TRIG,,,,,"/>
+<approved hash="113,3,65.0228,221.111,STPB_POTS,,,,,"/>
+<approved hash="113,3,346.879,221.111,ML_BTN,,,,,"/>
+<approved hash="113,3,182.994,144.911,REC_LED-BTN,,,,,"/>
+<approved hash="113,3,338.057,166.501,LED1,,,,,"/>
+<approved hash="113,3,338.057,148.721,LED2,,,,,"/>
+<approved hash="113,3,338.057,130.941,LED3,,,,,"/>
+<approved hash="113,3,338.057,113.161,LED4,,,,,"/>
+<approved hash="113,4,25.6963,65.7148,POWER,,,,,"/>
+<approved hash="113,1,143.468,-25.2688,ORIG_MAP,,,,,"/>
+<approved hash="113,1,141.62,-48.1288,NEW_MAP,,,,,"/>
+<approved hash="113,1,104.377,-48.1288,SD,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
