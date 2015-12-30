@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -82,7 +82,7 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="14" fill="1" visible="no" active="yes"/>
@@ -120,7 +120,7 @@
 <wire x1="151.765" y1="31.75" x2="151.765" y2="15.24" width="0.1524" layer="25"/>
 <wire x1="151.765" y1="15.24" x2="148.2725" y2="15.24" width="0.1524" layer="25"/>
 <wire x1="148.2725" y1="15.24" x2="148.2725" y2="31.75" width="0.1524" layer="25"/>
-<text x="148.2725" y="40.3225" size="1.016" layer="26" ratio="15">JTAG</text>
+<text x="148.2725" y="40.3225" size="1.016" layer="25" ratio="15">JTAG</text>
 <text x="144.78" y="29.5275" size="1.27" layer="25" ratio="15">GND</text>
 <text x="144.78" y="21.9075" size="1.27" layer="25" ratio="15">&gt;RX</text>
 <text x="144.78" y="19.3675" size="1.27" layer="25" ratio="15">&lt;TX</text>
@@ -129,7 +129,7 @@
 <text x="98.7425" y="48.26" size="1.016" layer="25" ratio="15">cc-by-sa Olivier Gillet, 2015. v3 - mod1 XNOR 2015</text>
 <text x="128.27" y="46.6725" size="1.016" layer="26" ratio="15" rot="MR0">cc-by-sa Olivier Gillet, 2015. v3</text>
 <text x="144.145" y="18.415" size="1.27" layer="25" ratio="15" rot="R90">FTDI DONGLE</text>
-<text x="108.9025" y="37.7825" size="3.3528" layer="25" ratio="15">Clouds</text>
+<text x="108.99775" y="41.68775" size="3.3528" layer="25" ratio="15">Clouds</text>
 <text x="125.095" y="41.5925" size="3.175" layer="26" ratio="15" rot="MR0">Clouds</text>
 <hole x="3.81" y="46.99" drill="3.2"/>
 <hole x="3.81" y="3.81" drill="3.2"/>
